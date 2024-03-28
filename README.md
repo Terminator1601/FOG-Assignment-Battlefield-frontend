@@ -8,3 +8,6 @@
   2) In the terminal, run `npm install`
   3) Run `npm start` to view project in browser
   
+
+
+You can view live page in https://fog-battlefield-frontend.vercel.app/
