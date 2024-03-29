@@ -14,7 +14,7 @@ const MenuMultiplayerServerBrow = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch("https://fog-battlefield-frontend.vercel.app/api/settings/basic");
+      const response = await fetch("http://localhost:5000/api/settings/basic");
       const settingsData = await response.json();
       setApiData(settingsData);
     } catch (error) {
