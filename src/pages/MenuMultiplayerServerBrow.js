@@ -15,7 +15,7 @@ const MenuMultiplayerServerBrow = () => {
   const fetchData = async () => {
     try {
       const response = await fetch(
-        "https://fog-battlefield-backend.onrender.com/api/settings/basic"
+        "https://fog-battlefield-backend.vercel.app/api/settings/basic"
       );
       const settingsData = await response.json();
       setApiData(settingsData);
@@ -33,7 +33,7 @@ const MenuMultiplayerServerBrow = () => {
   const fetchAdvancedSettings = async () => {
     try {
       const response = await fetch(
-        "https://fog-battlefield-backend.onrender.com/api/settings/advanced"
+        "https://fog-battlefield-backend.vercel.app/api/settings/advanced"
       );
       const advancedData = await response.json();
       setAdvancedSettings(advancedData);
@@ -51,7 +51,7 @@ const MenuMultiplayerServerBrow = () => {
   const fetchRulesData = async () => {
     try {
       const response = await fetch(
-        "https://fog-battlefield-backend.onrender.com/api/settings/rulesData"
+        "https://fog-battlefield-backend.vercel.app/api/settings/rulesData"
       );
       const data = await response.json();
       setRulesData(data.settings); // Assuming data structure includes a 'settings' property
