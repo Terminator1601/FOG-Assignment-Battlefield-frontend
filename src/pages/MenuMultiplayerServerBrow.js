@@ -49,7 +49,7 @@ const MenuMultiplayerServerBrow = () => {
   const fetchRulesData = async () => {
     try {
       const response = await fetch(
-        "https://fog-battlefield-frontend.vercel.app//api/settings/rulesData"
+        "http://localhost:5000/api/settings/rulesData"
       );
       const data = await response.json();
       setRulesData(data.settings); // Assuming data structure includes a 'settings' property
