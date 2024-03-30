@@ -14,7 +14,9 @@ const MenuMultiplayerServerBrow = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch("https://fog-battlefield-backend.onrender.com/api/settings/basic");
+      const response = await fetch(
+        "https://fog-battlefield-backend.onrender.com/api/settings/basic"
+      );
       const settingsData = await response.json();
       setApiData(settingsData);
     } catch (error) {
@@ -69,7 +71,7 @@ const MenuMultiplayerServerBrow = () => {
       <div className="w-px h-[calc(100%_+_1px)] absolute !m-[0] top-[0px] bottom-[-1px] left-[87.6px] box-border z-[2] border-r-[1px] border-solid border-gray-100" />
       <div className="w-[1888px] flex flex-row items-start justify-between py-0 pr-5 pl-0 box-border max-w-full gap-[20px] mq1400:flex-wrap">
         <div className="w-[1290.4px] flex flex-row items-start justify-start gap-[68.79999999999995px] max-w-full mq450:gap-[68.8px_17px] mq825:gap-[68.8px_34px]">
-          <div className="h-[595.8px] w-[58.1px] flex flex-col items-start justify-start pt-[171.69999999999993px] px-0 pb-0 box-border mq825:hidden mq825:pt-28 mq825:box-border">
+          <div className=" flex flex-col items-start justify-start pt-[171.69999999999993px] px-0 pb-0 box-border mq825:hidden mq825:pt-28 mq825:box-border">
             <div className="self-stretch flex-1 flex flex-col items-end justify-start gap-[16.166666666666675px]">
               <img
                 className="w-10 hover:brightness-150 h-12 relative object-cover z-[2]"
@@ -140,7 +142,7 @@ const MenuMultiplayerServerBrow = () => {
                         src="/back.svg"
                       />
                     </div>
-                    <nav className="m-0 flex-1 flex flex-row items-start justify-start gap-[9.4px] text-left text-lg text-white font-rajdhani">
+                    <nav className="nav-item m-0 flex-1 flex flex-row items-start justify-start gap-[9.4px] text-left text-white font-rajdhani">
                       <div className="flex flex-col items-start justify-start pt-[4.7999999999999545px] pb-0 pr-[3px] pl-0">
                         <div className="flex flex-row items-start justify-start z-[3]">
                           <div className="relative tracking-[0.06em] uppercase font-semibold inline-block min-w-[111px]">
@@ -151,14 +153,14 @@ const MenuMultiplayerServerBrow = () => {
                       <h3 className="m-0 relative text-5xl tracking-[0.06em] uppercase font-medium font-inherit text-gray-200 inline-block min-w-[12px] z-[3] mq450:text-lgi">
                         /
                       </h3>
-                      <div className="flex flex-col items-start justify-start pt-[4.7999999999999545px] px-0 pb-0">
+                      <div className=" flex flex-col items-start justify-start pt-[4.7999999999999545px] px-0 pb-0">
                         <div className="h-[23px] relative tracking-[0.06em] uppercase font-semibold inline-block z-[3]">
                           server browser
                         </div>
                       </div>
                     </nav>
                   </div>
-                  <div className="h-[54.1px] flex flex-row items-start justify-start pt-0 px-0 pb-0 box-border">
+                  <div className=" h-[54.1px] flex flex-row items-start justify-start pt-0 px-0 pb-0 box-border">
                     <h1 className="mt-[-4.900000000000091px] m-0 h-[59px] relative text-inherit tracking-[0.03em] uppercase font-semibold font-inherit inline-block shrink-0 [debug_commit:f6aba90] z-[2] mq450:text-[28px] mq825:text-[37px]">
                       server info
                     </h1>

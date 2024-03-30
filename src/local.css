@@ -11,3 +11,14 @@
     fill: black;
   }
   
+  .nav-item{
+    font-size: small !important;
+  }
+
+  .server-info{
+    font-size: medium !important;
+  }
+
+  .sidebar{
+    height: 100px;
+  }
