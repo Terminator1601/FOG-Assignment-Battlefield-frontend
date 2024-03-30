@@ -142,7 +142,7 @@ const MenuMultiplayerServerBrow = () => {
                         src="/back.svg"
                       />
                     </div>
-                    <nav className="nav-item m-0 flex-1 flex flex-row items-start justify-start gap-[9.4px] text-left text-white font-rajdhani">
+                    <nav className="nav-item m-0 flex-1 flex flex-row items-start justify-start gap-[9.4px] text-left text-lg text-white font-rajdhani">
                       <div className="flex flex-col items-start justify-start pt-[4.7999999999999545px] pb-0 pr-[3px] pl-0">
                         <div className="flex flex-row items-start justify-start z-[3]">
                           <div className="relative tracking-[0.06em] uppercase font-semibold inline-block min-w-[111px]">
